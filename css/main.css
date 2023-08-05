@@ -87,6 +87,108 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+   outline: 3px dotted red;
+   width:90%;
+}
+
+/* ------------------ base header - footer styles ---------------------------------*/
+header{
+  display:flex;
+  justify-content:center;
+  
+
+}
+
+header .content-wrapper {
+  display:flex;
+  align-items:center;
+
+  
+}
+
+header nav ul{
+
+}
+
+footer{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+
+
+
+}
+
+footer .social-icons {
+  display:flex;
+  justify-content: space-around;
+}
+
+
+footer .social-icons p {
+  display:flex;
+  justify-content: center;
+}
+
+/* Hero area */
+.hero-area{
+  display:flex;
+  justify-content:center;
+}
+
+/* Aside*/
+aside {
+  display:flex;
+  justify-content:center;
+}
+
+/*Features */
+.features {
+  display:flex;
+  justify-content:center;
+}
+
+.features .features-items {
+  display:flex;
+  justify-content:center;
+
+}
+
+/* Reviews */
+
+.reviews{
+  display:flex;
+  justify-content:center;
+}
+
+/* ===========================================================================
+About Page */
+.mission {
+  display:flex;
+  justify-content:center;
+}
+
+.contact-session {
+  display:flex;
+  justify-content:center;
+}
+
+
+/* ==========================================================================
+FAQ Page */
+
+.faq{
+  display:flex;
+  justify-content:center;
+}
+
+.faq .content-wrapper {
+  display:flex;
+  justify-content:center;
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
