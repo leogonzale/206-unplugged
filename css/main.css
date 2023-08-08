@@ -82,34 +82,56 @@ fieldset {
 textarea {
   resize: vertical;
 }
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+   .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
+  
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-.content-wrapper {
-   outline: 3px dotted red;
-   width:90%;
-}
+  
+  .content-wrapper {
+    outline: 2px dotted red;
+    width:90%
+    
+  }
 
 /* ------------------ base header - footer styles ---------------------------------*/
 header{
   display:flex;
   justify-content:center;
+  flex-flow: row wrap;
   
-
 }
+
 
 header .content-wrapper {
   display:flex;
+  justify-content:center;
   align-items:center;
-
+  flex-flow: row wrap;
   
 }
 
-header nav ul{
-
+/*
+.header-divider{
+  display:flex;
+  justify-content:center;
 }
+
+header nav ul{
+  display:flex;
+  justify-content:space-around;
+}*/
 
 footer{
   display:flex;
@@ -124,12 +146,14 @@ footer{
 footer .social-icons {
   display:flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 
 footer .social-icons p {
   display:flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Hero area */
@@ -153,6 +177,8 @@ aside {
 .features .features-items {
   display:flex;
   justify-content:center;
+  align-items:flex-start ;
+  flex-flow: row wrap;
 
 }
 
@@ -187,7 +213,8 @@ FAQ Page */
 .faq .content-wrapper {
   display:flex;
   justify-content:center;
-
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 /* ==========================================================================
    Helper classes
